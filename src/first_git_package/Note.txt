@@ -38,6 +38,72 @@ NOTE: PULL BEFORE PUSH
         *git pull -> git add . -> git commit -m "message" -> git push
 
 
+**************************DAY 1 SUMMARY**************************************
+*****Prerequisites :
+*Git Install
+*GirHub account
+*Git Authentication (create token, add username and token so your account verification is complete)
+******First Time Git Push*****
+*git init
+*FOLLOW THE INSTRUCTION in PUR GITHUB REPOSITORY
+     git init
+     git add .md
+     git commit -m "first commit"
+     git branch -M main
+     git remote add origin https://github.com/RufatSadigov/demo.git
+     git push -u origin main
+*NOTE : If you get an error, just google the error message...
+
+
+*****Second Time Git Push*****
+     git add .
+     git commit -m "any message"
+     git push
+
+
+*****GIT PULL
+     git pull gets latest github code in our local
+     git pull = git fetch + git merge
+
+
+*****CONFLICT
+     When we try to merge the code that are in the - SAME spot but with DIFFERENT codes -
+
+
+*****How to Resolve conflict?
+     Manually fix : remove tha illegal characters (error message), create a new commit (add, commit), then push
+
+
+*****To minimize conflict, we can clone the project, add our new code quickly, then commit then push
+
+
+
+
+
+
+*****************************DAY 2**************************************
+BRANCHING
+git branch -a -> show me all branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
